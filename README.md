@@ -7,3 +7,7 @@
 
         strftime(char *str, size_t maxsize, const char *format, const struct tm *timeptr):
         Highly configurable formatting via the format string. 
+
+        	        printf	                                        fprintf
+        Output to	Standard output (stdout) by default.	        A specified FILE stream (e.g., stdout,                                                         stderr, or a file).
+        
