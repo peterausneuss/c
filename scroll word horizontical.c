@@ -27,7 +27,7 @@ void handle_sigint(int sig) {
 }
 
 int main() {
-    const char *message = "hello";
+    const char *message = "Hallo Welt! This is a scrolling message.";
     size_t message_len = strlen(message);
     int terminal_width;
     int current_col;
